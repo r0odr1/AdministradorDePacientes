@@ -6,6 +6,8 @@ export default function PatientForm() {
   const { register, handleSubmit, formState: {errors} } = useForm<DraftPatient>()
 
   const registerPatient = (data: DraftPatient) => {
+    console.log(data);
+    
 
   }
   
